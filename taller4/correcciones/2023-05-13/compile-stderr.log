@@ -1,0 +1,285 @@
+In file included from ./string_map.h:97,
+                 from ../../../../../taller4/string_map_tests.cpp:2:
+./string_map.hpp: In member function ‘string_map<T>& string_map<T>::operator=(const string_map<T>&)’:
+./string_map.hpp:11:5: error: there are no arguments to ‘_borrar’ that depend on a template parameter, so a declaration of ‘_borrar’ must be available [-fpermissive]
+   11 |     _borrar();
+      |     ^~~~~~~
+./string_map.hpp:11:5: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+./string_map.hpp: At global scope:
+./string_map.hpp:30:6: error: no declaration matches ‘void string_map<T>::_copy_from(const string_map<T>::Nodo*, string_map<T>::Nodo*)’
+   30 | void string_map<T>::_copy_from(const Nodo* d, Nodo* h) {
+      |      ^~~~~~~~~~~~~
+./string_map.hpp:30:6: note: no functions named ‘void string_map<T>::_copy_from(const string_map<T>::Nodo*, string_map<T>::Nodo*)’
+In file included from ../../../../../taller4/string_map_tests.cpp:2:
+./string_map.h:12:7: note: ‘class string_map<T>’ defined here
+   12 | class string_map {
+      |       ^~~~~~~~~~
+In file included from ./string_map.h:97,
+                 from ../../../../../taller4/string_map_tests.cpp:2:
+./string_map.hpp: In destructor ‘string_map<T>::~string_map()’:
+./string_map.hpp:60:5: error: there are no arguments to ‘_borrar’ that depend on a template parameter, so a declaration of ‘_borrar’ must be available [-fpermissive]
+   60 |     _borrar();
+      |     ^~~~~~~
+./string_map.hpp: At global scope:
+./string_map.hpp:64:6: error: no declaration matches ‘void string_map<T>::_borrar()’
+   64 | void string_map<T>::_borrar() {
+      |      ^~~~~~~~~~~~~
+./string_map.hpp:64:6: note: no functions named ‘void string_map<T>::_borrar()’
+In file included from ../../../../../taller4/string_map_tests.cpp:2:
+./string_map.h:12:7: note: ‘class string_map<T>’ defined here
+   12 | class string_map {
+      |       ^~~~~~~~~~
+In file included from ./string_map.h:97,
+                 from ../../../../../taller4/string_map_tests.cpp:2:
+./string_map.hpp:74:6: error: no declaration matches ‘void string_map<T>::_borrar_siguientes(string_map<T>::Nodo*)’
+   74 | void string_map<T>::_borrar_siguientes(Nodo* n) {
+      |      ^~~~~~~~~~~~~
+./string_map.hpp:74:6: note: no functions named ‘void string_map<T>::_borrar_siguientes(string_map<T>::Nodo*)’
+In file included from ../../../../../taller4/string_map_tests.cpp:2:
+./string_map.h:12:7: note: ‘class string_map<T>’ defined here
+   12 | class string_map {
+      |       ^~~~~~~~~~
+In file included from ./string_map.h:97,
+                 from ../../../../../taller4/string_map_tests.cpp:2:
+./string_map.hpp: In member function ‘T& string_map<T>::operator[](const string&)’:
+./string_map.hpp:101:12: error: there are no arguments to ‘_define_default’ that depend on a template parameter, so a declaration of ‘_define_default’ must be available [-fpermissive]
+  101 |     return _define_default(clave);
+      |            ^~~~~~~~~~~~~~~
+./string_map.hpp: At global scope:
+./string_map.hpp:105:4: error: no declaration matches ‘T& string_map<T>::_define_default(const string&)’
+  105 | T& string_map<T>::_define_default(const string& clave) {
+      |    ^~~~~~~~~~~~~
+./string_map.hpp:105:4: note: no functions named ‘T& string_map<T>::_define_default(const string&)’
+In file included from ../../../../../taller4/string_map_tests.cpp:2:
+./string_map.h:12:7: note: ‘class string_map<T>’ defined here
+   12 | class string_map {
+      |       ^~~~~~~~~~
+In file included from ./string_map.h:97,
+                 from ../../../../../taller4/string_map_tests.cpp:2:
+./string_map.hpp:134:6: error: no declaration matches ‘void string_map<T>::_borrar_def(string_map<T>::Nodo*&)’
+  134 | void string_map<T>::_borrar_def(Nodo* &n) {
+      |      ^~~~~~~~~~~~~
+./string_map.hpp:134:6: note: no functions named ‘void string_map<T>::_borrar_def(string_map<T>::Nodo*&)’
+In file included from ../../../../../taller4/string_map_tests.cpp:2:
+./string_map.h:12:7: note: ‘class string_map<T>’ defined here
+   12 | class string_map {
+      |       ^~~~~~~~~~
+In file included from ./string_map.h:97,
+                 from ../../../../../taller4/string_map_tests.cpp:2:
+./string_map.hpp:145:6: error: no declaration matches ‘bool string_map<T>::_contains(const string&) const’
+  145 | bool string_map<T>::_contains(const string& clave) const {
+      |      ^~~~~~~~~~~~~
+./string_map.hpp:145:6: note: no functions named ‘bool string_map<T>::_contains(const string&) const’
+In file included from ../../../../../taller4/string_map_tests.cpp:2:
+./string_map.h:12:7: note: ‘class string_map<T>’ defined here
+   12 | class string_map {
+      |       ^~~~~~~~~~
+In file included from ./string_map.h:97,
+                 from ../../../../../taller4/string_map_tests.cpp:2:
+./string_map.hpp: In member function ‘int string_map<T>::count(const string&) const’:
+./string_map.hpp:164:12: error: there are no arguments to ‘_contains’ that depend on a template parameter, so a declaration of ‘_contains’ must be available [-fpermissive]
+  164 |     return _contains(clave)? 1 : 0;
+      |            ^~~~~~~~~
+./string_map.hpp: At global scope:
+./string_map.hpp:233:6: error: no declaration matches ‘bool string_map<T>::_tiene_aristas(const string_map<T>::Nodo*)’
+  233 | bool string_map<T>::_tiene_aristas(const Nodo* n) {
+      |      ^~~~~~~~~~~~~
+./string_map.hpp:233:6: note: no functions named ‘bool string_map<T>::_tiene_aristas(const string_map<T>::Nodo*)’
+In file included from ../../../../../taller4/string_map_tests.cpp:2:
+./string_map.h:12:7: note: ‘class string_map<T>’ defined here
+   12 | class string_map {
+      |       ^~~~~~~~~~
+In file included from ./string_map.h:97,
+                 from ../../../../../taller4/string_map_tests.cpp:2:
+./string_map.hpp:238:5: error: no declaration matches ‘int string_map<T>::_aristas(const string_map<T>::Nodo*)’
+  238 | int string_map<T>::_aristas(const Nodo* n) {
+      |     ^~~~~~~~~~~~~
+./string_map.hpp:238:5: note: no functions named ‘int string_map<T>::_aristas(const string_map<T>::Nodo*)’
+In file included from ../../../../../taller4/string_map_tests.cpp:2:
+./string_map.h:12:7: note: ‘class string_map<T>’ defined here
+   12 | class string_map {
+      |       ^~~~~~~~~~
+../../../../../taller4/string_map_tests.cpp: In member function ‘virtual void string_map_test_asignar_Test::TestBody()’:
+../../../../../taller4/string_map_tests.cpp:13:15: error: ‘class string_map<int>’ has no member named ‘insert’
+   13 |     singleton.insert(make_pair("hola", 1));
+      |               ^~~~~~
+../../../../../taller4/string_map_tests.cpp: In member function ‘virtual void string_map_test_obtener_Test::TestBody()’:
+../../../../../taller4/string_map_tests.cpp:23:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   23 |     sin_prefijos.insert(make_pair("hola", 1));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:24:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   24 |     sin_prefijos.insert(make_pair("chau", 2));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:25:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   25 |     sin_prefijos.insert(make_pair("adios", 3));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:27:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   27 |     con_prefijos.insert(make_pair("c",  1));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:28:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   28 |     con_prefijos.insert(make_pair("casa",  2));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:29:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   29 |     con_prefijos.insert(make_pair("casona",  3));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp: In member function ‘virtual void string_map_test_redefinir_Test::TestBody()’:
+../../../../../taller4/string_map_tests.cpp:43:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   43 |     con_prefijos.insert(make_pair("c",  1));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:44:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   44 |     con_prefijos.insert(make_pair("casa",  2));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:45:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   45 |     con_prefijos.insert(make_pair("casona",  3));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:47:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   47 |     con_prefijos.insert(make_pair("c", 2));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:49:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   49 |     con_prefijos.insert(make_pair("c", 3));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp: In member function ‘virtual void string_map_test_count_Test::TestBody()’:
+../../../../../taller4/string_map_tests.cpp:58:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   58 |     sin_prefijos.insert(make_pair("hola", 1));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:59:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   59 |     sin_prefijos.insert(make_pair("chau", 2));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:60:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   60 |     sin_prefijos.insert(make_pair("adios", 3));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:62:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   62 |     con_prefijos.insert(make_pair("c", 1));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:63:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   63 |     con_prefijos.insert(make_pair("casa", 2));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:64:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   64 |     con_prefijos.insert(make_pair("casona", 3));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp: In member function ‘virtual void string_map_test_copiar_Test::TestBody()’:
+../../../../../taller4/string_map_tests.cpp:90:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   90 |     sin_prefijos.insert(make_pair("hola", 1));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:91:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   91 |     sin_prefijos.insert(make_pair("chau", 2));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:92:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   92 |     sin_prefijos.insert(make_pair("adios", 3));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:94:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   94 |     con_prefijos.insert(make_pair("c", 1));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:95:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   95 |     con_prefijos.insert(make_pair("casa", 2));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:96:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   96 |     con_prefijos.insert(make_pair("casona", 3));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp: In member function ‘virtual void string_map_test_no_aliasing_Test::TestBody()’:
+../../../../../taller4/string_map_tests.cpp:128:15: error: ‘class string_map<int>’ has no member named ‘insert’
+  128 |     singleton.insert(make_pair("hola", 1));
+      |               ^~~~~~
+../../../../../taller4/string_map_tests.cpp:131:15: error: ‘class string_map<int>’ has no member named ‘insert’
+  131 |         copia.insert(make_pair("hare", 2));
+      |               ^~~~~~
+../../../../../taller4/string_map_tests.cpp: In member function ‘virtual void string_map_test_TrieDeTries_Test::TestBody()’:
+../../../../../taller4/string_map_tests.cpp:143:15: error: ‘class string_map<int>’ has no member named ‘insert’
+  143 |     singleton.insert(make_pair("hola", 1));
+      |               ^~~~~~
+../../../../../taller4/string_map_tests.cpp:145:18: error: ‘class string_map<int>’ has no member named ‘insert’
+  145 |     sin_prefijos.insert(make_pair("hola", 1));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:146:18: error: ‘class string_map<int>’ has no member named ‘insert’
+  146 |     sin_prefijos.insert(make_pair("chau", 2));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:147:18: error: ‘class string_map<int>’ has no member named ‘insert’
+  147 |     sin_prefijos.insert(make_pair("adios",  3));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:149:18: error: ‘class string_map<int>’ has no member named ‘insert’
+  149 |     con_prefijos.insert(make_pair("c",  1));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:150:18: error: ‘class string_map<int>’ has no member named ‘insert’
+  150 |     con_prefijos.insert(make_pair("casa",  2));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:151:18: error: ‘class string_map<int>’ has no member named ‘insert’
+  151 |     con_prefijos.insert(make_pair("casona",  3));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:153:15: error: ‘class string_map<string_map<int> >’ has no member named ‘insert’
+  153 |     dicc_dicc.insert(make_pair("vacio",  vacio));
+      |               ^~~~~~
+../../../../../taller4/string_map_tests.cpp:154:15: error: ‘class string_map<string_map<int> >’ has no member named ‘insert’
+  154 |     dicc_dicc.insert(make_pair("singleton",  singleton));
+      |               ^~~~~~
+../../../../../taller4/string_map_tests.cpp:155:15: error: ‘class string_map<string_map<int> >’ has no member named ‘insert’
+  155 |     dicc_dicc.insert(make_pair("sin_prefijos",  sin_prefijos));
+      |               ^~~~~~
+../../../../../taller4/string_map_tests.cpp:156:15: error: ‘class string_map<string_map<int> >’ has no member named ‘insert’
+  156 |     dicc_dicc.insert(make_pair("con_prefijos",  con_prefijos));
+      |               ^~~~~~
+../../../../../taller4/string_map_tests.cpp: In member function ‘virtual void string_map_test_eraseUnicaClave_Test::TestBody()’:
+../../../../../taller4/string_map_tests.cpp:174:15: error: ‘class string_map<int>’ has no member named ‘insert’
+  174 |     singleton.insert(make_pair("hola", 1));
+      |               ^~~~~~
+../../../../../taller4/string_map_tests.cpp: In member function ‘virtual void string_map_test_erase_Test::TestBody()’:
+../../../../../taller4/string_map_tests.cpp:188:18: error: ‘class string_map<int>’ has no member named ‘insert’
+  188 |     sin_prefijos.insert(make_pair("hola", 1));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:189:18: error: ‘class string_map<int>’ has no member named ‘insert’
+  189 |     sin_prefijos.insert(make_pair("chau", 2));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:190:18: error: ‘class string_map<int>’ has no member named ‘insert’
+  190 |     sin_prefijos.insert(make_pair("adios",  3));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:192:18: error: ‘class string_map<int>’ has no member named ‘insert’
+  192 |     con_prefijos.insert(make_pair("c",  1));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:193:18: error: ‘class string_map<int>’ has no member named ‘insert’
+  193 |     con_prefijos.insert(make_pair("casa",  2));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:194:18: error: ‘class string_map<int>’ has no member named ‘insert’
+  194 |     con_prefijos.insert(make_pair("casona",  3));
+      |                  ^~~~~~
+In file included from ./string_map.h:97,
+                 from ../../../../../taller4/string_map_tests.cpp:2:
+./string_map.hpp: In instantiation of ‘string_map<T>::~string_map() [with T = int]’:
+../../../../../taller4/string_map_tests.cpp:5:21:   required from here
+./string_map.hpp:60:12: error: ‘_borrar’ was not declared in this scope
+   60 |     _borrar();
+      |     ~~~~~~~^~
+./string_map.hpp: In instantiation of ‘int string_map<T>::count(const string&) const [with T = int; std::string = std::__cxx11::basic_string<char>]’:
+../../../../../taller4/string_map_tests.cpp:8:5:   required from here
+./string_map.hpp:164:21: error: ‘_contains’ was not declared in this scope
+  164 |     return _contains(clave)? 1 : 0;
+      |            ~~~~~~~~~^~~~~~~
+./string_map.hpp: In instantiation of ‘string_map<T>::~string_map() [with T = string_map<int>]’:
+../../../../../taller4/string_map_tests.cpp:141:33:   required from here
+./string_map.hpp:60:12: error: ‘_borrar’ was not declared in this scope
+   60 |     _borrar();
+      |     ~~~~~~~^~
+./string_map.hpp: In instantiation of ‘void string_map<T>::erase(const string&) [with T = int; std::string = std::__cxx11::basic_string<char>]’:
+../../../../../taller4/string_map_tests.cpp:178:20:   required from here
+./string_map.hpp:198:22: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  198 |     for(int i = 0; i < clave.size(); i++) {
+      |                    ~~^~~~~~~~~~~~~~
+./string_map.hpp:199:26: error: ‘_tiene_aristas’ was not declared in this scope
+  199 |         if(_tiene_aristas(actual) || actual->definicion != nullptr) {
+      |            ~~~~~~~~~~~~~~^~~~~~~~
+./string_map.hpp:208:16: error: ‘_borrar_def’ was not declared in this scope
+  208 |     _borrar_def(actual);
+      |     ~~~~~~~~~~~^~~~~~~~
+./string_map.hpp:214:23: error: ‘_tiene_aristas’ was not declared in this scope
+  214 |     if (_tiene_aristas(actual)) {
+      |         ~~~~~~~~~~~~~~^~~~~~~~
+./string_map.hpp:221:37: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  221 |     for (int i = indice_ultimo+1; i < clave.size(); i++) {
+      |                                   ~~^~~~~~~~~~~~~~
+./string_map.hpp: In instantiation of ‘string_map<T>& string_map<T>::operator=(const string_map<T>&) [with T = int]’:
+./string_map.hpp:6:80:   required from ‘string_map<T>::string_map(const string_map<T>&) [with T = int]’
+../../../../../taller4/string_map_tests.cpp:98:39:   required from here
+./string_map.hpp:11:12: error: ‘_borrar’ was not declared in this scope
+   11 |     _borrar();
+      |     ~~~~~~~^~
+./string_map.hpp:19:19: error: ‘_copy_from’ was not declared in this scope
+   19 |         _copy_from(d._raiz, _raiz);
+      |         ~~~~~~~~~~^~~~~~~~~~~~~~~~

@@ -1,0 +1,16 @@
+In file included from ../../../../../taller2/lista_tests.cpp:3:
+./Lista.cpp: In member function ‘void Lista::eliminar(Nat)’:
+./Lista.cpp:80:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘Nat’ {aka ‘long unsigned int’} [-Wsign-compare]
+   80 |     for (int j = 0; j < i; ++j) {
+      |                     ~~^~~
+./Lista.cpp:92:14: warning: comparison of integer expressions of different signedness: ‘Nat’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+   92 |         if(i == longitud()-1){
+      |            ~~^~~~~~~~~~~~~~~
+./Lista.cpp: In member function ‘const int& Lista::iesimo(Nat) const’:
+./Lista.cpp:120:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘Nat’ {aka ‘long unsigned int’} [-Wsign-compare]
+  120 |     for (int j = 0; j < i; ++j) {
+      |                     ~~^~~
+./Lista.cpp: In member function ‘int& Lista::iesimo(Nat)’:
+./Lista.cpp:130:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘Nat’ {aka ‘long unsigned int’} [-Wsign-compare]
+  130 |     for (int j = 0; j < i; ++j) {
+      |                     ~~^~~

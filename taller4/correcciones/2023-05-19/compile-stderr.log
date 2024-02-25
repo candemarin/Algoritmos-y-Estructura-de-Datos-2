@@ -1,0 +1,158 @@
+../../../../../taller4/string_map_tests.cpp: In member function ‘virtual void string_map_test_asignar_Test::TestBody()’:
+../../../../../taller4/string_map_tests.cpp:13:15: error: ‘class string_map<int>’ has no member named ‘insert’
+   13 |     singleton.insert(make_pair("hola", 1));
+      |               ^~~~~~
+../../../../../taller4/string_map_tests.cpp: In member function ‘virtual void string_map_test_obtener_Test::TestBody()’:
+../../../../../taller4/string_map_tests.cpp:23:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   23 |     sin_prefijos.insert(make_pair("hola", 1));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:24:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   24 |     sin_prefijos.insert(make_pair("chau", 2));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:25:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   25 |     sin_prefijos.insert(make_pair("adios", 3));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:27:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   27 |     con_prefijos.insert(make_pair("c",  1));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:28:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   28 |     con_prefijos.insert(make_pair("casa",  2));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:29:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   29 |     con_prefijos.insert(make_pair("casona",  3));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp: In member function ‘virtual void string_map_test_redefinir_Test::TestBody()’:
+../../../../../taller4/string_map_tests.cpp:43:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   43 |     con_prefijos.insert(make_pair("c",  1));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:44:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   44 |     con_prefijos.insert(make_pair("casa",  2));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:45:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   45 |     con_prefijos.insert(make_pair("casona",  3));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:47:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   47 |     con_prefijos.insert(make_pair("c", 2));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:49:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   49 |     con_prefijos.insert(make_pair("c", 3));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp: In member function ‘virtual void string_map_test_count_Test::TestBody()’:
+../../../../../taller4/string_map_tests.cpp:58:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   58 |     sin_prefijos.insert(make_pair("hola", 1));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:59:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   59 |     sin_prefijos.insert(make_pair("chau", 2));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:60:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   60 |     sin_prefijos.insert(make_pair("adios", 3));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:62:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   62 |     con_prefijos.insert(make_pair("c", 1));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:63:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   63 |     con_prefijos.insert(make_pair("casa", 2));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:64:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   64 |     con_prefijos.insert(make_pair("casona", 3));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp: In member function ‘virtual void string_map_test_copiar_Test::TestBody()’:
+../../../../../taller4/string_map_tests.cpp:90:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   90 |     sin_prefijos.insert(make_pair("hola", 1));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:91:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   91 |     sin_prefijos.insert(make_pair("chau", 2));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:92:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   92 |     sin_prefijos.insert(make_pair("adios", 3));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:94:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   94 |     con_prefijos.insert(make_pair("c", 1));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:95:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   95 |     con_prefijos.insert(make_pair("casa", 2));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:96:18: error: ‘class string_map<int>’ has no member named ‘insert’
+   96 |     con_prefijos.insert(make_pair("casona", 3));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp: In member function ‘virtual void string_map_test_no_aliasing_Test::TestBody()’:
+../../../../../taller4/string_map_tests.cpp:128:15: error: ‘class string_map<int>’ has no member named ‘insert’
+  128 |     singleton.insert(make_pair("hola", 1));
+      |               ^~~~~~
+../../../../../taller4/string_map_tests.cpp:131:15: error: ‘class string_map<int>’ has no member named ‘insert’
+  131 |         copia.insert(make_pair("hare", 2));
+      |               ^~~~~~
+../../../../../taller4/string_map_tests.cpp: In member function ‘virtual void string_map_test_TrieDeTries_Test::TestBody()’:
+../../../../../taller4/string_map_tests.cpp:143:15: error: ‘class string_map<int>’ has no member named ‘insert’
+  143 |     singleton.insert(make_pair("hola", 1));
+      |               ^~~~~~
+../../../../../taller4/string_map_tests.cpp:145:18: error: ‘class string_map<int>’ has no member named ‘insert’
+  145 |     sin_prefijos.insert(make_pair("hola", 1));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:146:18: error: ‘class string_map<int>’ has no member named ‘insert’
+  146 |     sin_prefijos.insert(make_pair("chau", 2));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:147:18: error: ‘class string_map<int>’ has no member named ‘insert’
+  147 |     sin_prefijos.insert(make_pair("adios",  3));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:149:18: error: ‘class string_map<int>’ has no member named ‘insert’
+  149 |     con_prefijos.insert(make_pair("c",  1));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:150:18: error: ‘class string_map<int>’ has no member named ‘insert’
+  150 |     con_prefijos.insert(make_pair("casa",  2));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:151:18: error: ‘class string_map<int>’ has no member named ‘insert’
+  151 |     con_prefijos.insert(make_pair("casona",  3));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:153:15: error: ‘class string_map<string_map<int> >’ has no member named ‘insert’
+  153 |     dicc_dicc.insert(make_pair("vacio",  vacio));
+      |               ^~~~~~
+../../../../../taller4/string_map_tests.cpp:154:15: error: ‘class string_map<string_map<int> >’ has no member named ‘insert’
+  154 |     dicc_dicc.insert(make_pair("singleton",  singleton));
+      |               ^~~~~~
+../../../../../taller4/string_map_tests.cpp:155:15: error: ‘class string_map<string_map<int> >’ has no member named ‘insert’
+  155 |     dicc_dicc.insert(make_pair("sin_prefijos",  sin_prefijos));
+      |               ^~~~~~
+../../../../../taller4/string_map_tests.cpp:156:15: error: ‘class string_map<string_map<int> >’ has no member named ‘insert’
+  156 |     dicc_dicc.insert(make_pair("con_prefijos",  con_prefijos));
+      |               ^~~~~~
+../../../../../taller4/string_map_tests.cpp: In member function ‘virtual void string_map_test_eraseUnicaClave_Test::TestBody()’:
+../../../../../taller4/string_map_tests.cpp:174:15: error: ‘class string_map<int>’ has no member named ‘insert’
+  174 |     singleton.insert(make_pair("hola", 1));
+      |               ^~~~~~
+../../../../../taller4/string_map_tests.cpp: In member function ‘virtual void string_map_test_erase_Test::TestBody()’:
+../../../../../taller4/string_map_tests.cpp:188:18: error: ‘class string_map<int>’ has no member named ‘insert’
+  188 |     sin_prefijos.insert(make_pair("hola", 1));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:189:18: error: ‘class string_map<int>’ has no member named ‘insert’
+  189 |     sin_prefijos.insert(make_pair("chau", 2));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:190:18: error: ‘class string_map<int>’ has no member named ‘insert’
+  190 |     sin_prefijos.insert(make_pair("adios",  3));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:192:18: error: ‘class string_map<int>’ has no member named ‘insert’
+  192 |     con_prefijos.insert(make_pair("c",  1));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:193:18: error: ‘class string_map<int>’ has no member named ‘insert’
+  193 |     con_prefijos.insert(make_pair("casa",  2));
+      |                  ^~~~~~
+../../../../../taller4/string_map_tests.cpp:194:18: error: ‘class string_map<int>’ has no member named ‘insert’
+  194 |     con_prefijos.insert(make_pair("casona",  3));
+      |                  ^~~~~~
+In file included from ./string_map.h:121,
+                 from ../../../../../taller4/string_map_tests.cpp:2:
+./string_map.hpp: In instantiation of ‘void string_map<T>::erase(const string&) [with T = int; std::string = std::__cxx11::basic_string<char>]’:
+../../../../../taller4/string_map_tests.cpp:178:20:   required from here
+./string_map.hpp:198:22: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  198 |     for(int i = 0; i < clave.size(); i++) {
+      |                    ~~^~~~~~~~~~~~~~
+./string_map.hpp:221:37: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  221 |     for (int i = indice_ultimo+1; i < clave.size(); i++) {
+      |                                   ~~^~~~~~~~~~~~~~
+./string_map.hpp: In instantiation of ‘void string_map<T>::_copy_from(const string_map<T>::Nodo*, string_map<T>::Nodo*) [with T = int]’:
+./string_map.hpp:19:9:   required from ‘string_map<T>& string_map<T>::operator=(const string_map<T>&) [with T = int]’
+./string_map.hpp:6:80:   required from ‘string_map<T>::string_map(const string_map<T>&) [with T = int]’
+../../../../../taller4/string_map_tests.cpp:98:39:   required from here
+./string_map.hpp:37:22: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<string_map<int>::Nodo*, std::allocator<string_map<int>::Nodo*> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   37 |     for(int i = 0; i < d->siguientes.size(); i++) {
+      |                    ~~^~~~~~~~~~~~~~~~~~~~~~

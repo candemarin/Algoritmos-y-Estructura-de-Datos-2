@@ -1,0 +1,14 @@
+==34107== Memcheck, a memory error detector
+==34107== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==34107== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==34107== Command: ./test
+==34107== 
+==34107== 
+==34107== HEAP SUMMARY:
+==34107==     in use at exit: 0 bytes in 0 blocks
+==34107==   total heap usage: 347 allocs, 347 frees, 134,490 bytes allocated
+==34107== 
+==34107== All heap blocks were freed -- no leaks are possible
+==34107== 
+==34107== For lists of detected and suppressed errors, rerun with: -s
+==34107== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
